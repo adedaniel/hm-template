@@ -1,0 +1,340 @@
+@media (min-width: 700px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        /* display: -ms-flexbox!important; */
+        display: flex!important;
+        /* -ms-flex-preferred-size: auto; */
+        flex-basis: auto;
+    }
+    .navbar-expand-lg {
+        /* -ms-flex-flow: row nowrap; */
+        flex-flow: row nowrap;
+        /* -ms-flex-pack: start; */
+        justify-content: flex-start;
+    }
+    .navbar-expand-lg .navbar-nav {
+        /* -ms-flex-direction: row; */
+        flex-direction: row;
+    }
+}
+
+img {
+    text-decoration: none
+}
+
+.typed-cursor {
+    font-size: -webkit-xxx-large
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent
+}
+
+.navbar-nav .nav-item {
+    padding-right: 20px
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white
+}
+
+.contain {
+    text-align: center;
+    height: 600px;
+    display: table;
+}
+
+.nigga p,
+.nigga strong {
+    color: black
+}
+
+.cent {
+    vertical-align: middle;
+    display: table-cell
+}
+
+.comit {
+    font-size: 2rem;
+    color: #0078ff;
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 1.6;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* For the background Image */
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-hover-zoom {
+    height: 250px;
+    /* [1.1] Set it as per your need */
+    overflow: hidden;
+    /* [1.2] Hide the overflowing of child elements */
+}
+
+
+/* [2] Transition property for smooth transformation of images */
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+
+/* [3] Finally, transforming the image when container gets hovered */
+
+.img-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+
+
+/* img:hover {
+    -moz-transform: scale(1.5) rotate(0deg) translate(0px, 0px) skew(0deg, 0deg);
+    -webkit-transform: scale(1.5) rotate(0deg) translate(0px, 0px) skew(0deg, 0deg);
+    -o-transform: scale(1.5) rotate(0deg) translate(0px, 0px) skew(0deg, 0deg);
+    -ms-transform: scale(1.5) rotate(0deg) translate(0px, 0px) skew(0deg, 0deg);
+    transform: scale(1.5) rotate(0deg) translate(0px, 0px) skew(0deg, 0deg);
+} */
+
+.intro {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #060e18
+}
+
+.contact-box {
+    background: #ffffff;
+    padding: 30px 20px 30px 90px;
+    border-radius: 5px;
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+}
+
+body {
+    background-color: #dcdada
+}
+
+.pull-right {
+    float: right;
+}
+
+.progress {
+    background-color: #dcdada;
+    margin: .5rem 0 1.2rem 0;
+    height: .7rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.button-a {
+    background-color: #0078ff;
+    color: #fff;
+    border-color: #cde1f8;
+}
+
+.button {
+    display: inline-block;
+    padding: .3rem .6rem;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1rem;
+    border-radius: .3rem;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.button-big {
+    padding: .9rem 2.3rem;
+    font-size: 1.2rem;
+}
+
+.title-a {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nigga.line-mf {
+    width: 99px;
+    height: 4px;
+    background-color: #0078ff;
+    margin: 0;
+}
+
+.line-mf {
+    width: 99px;
+    height: 9px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.service-box {
+    text-align: center;
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.ico-circle {
+    -webkit-transition: background-color 1s;
+    /* For Safari 3.0 to 6.0 */
+    transition: background-color 1s;
+    /* For modern browsers */
+    background-color: #0078ff;
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px transparent;
+    display: block;
+}
+
+.icofont-computer {
+    -webkit-transition: color 2s;
+    /* For Safari 3.0 to 6.0 */
+    transition: color 2s;
+    /* For modern browsers */
+}
+
+.service-ico {
+    margin-top: -90px;
+    margin-bottom: 20px
+}
+
+
+/* .ico-circle:hover {
+    background-color: #dcdada
+} */
+
+.counter-ico .ico-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.8;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 10rem 0;
+}
+
+a {
+    text-decoration: none
+}
+
+
+/* 
+.work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+}
+
+a {
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.work-img {
+    display: block;
+    overflow: hidden;
+}
+
+.work-img img {
+    transition: all 1s;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.work-content .w-like {
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;
+}
+
+.w-title {
+    font-size: 1.2rem;
+}
+
+.work-content .w-more {
+    color: #4e4e4e;
+    font-size: .8rem;
+} */
