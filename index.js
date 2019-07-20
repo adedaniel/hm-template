@@ -10,6 +10,15 @@
 
 // var typed = new Typed(".typing", options);
 
+
+
+//  $(".counter1").animate.
+
+
+
+
+
+
 var i1 = 0;
 
 var inv1 = setInterval(function() {
@@ -18,6 +27,7 @@ var inv1 = setInterval(function() {
     else
         clearInterval(inv1);
 }, 3000 / 450);
+
 var i2 = 0;
 var inv2 = setInterval(function() {
     if (i2 < 550)
@@ -39,12 +49,6 @@ var inv4 = setInterval(function() {
     else
         clearInterval(inv4);
 }, 3000 / 45);
-
-
-
-
-
-
 
 var typed = new Typed('.int', {
     // Waits 1000ms after typing "First"
@@ -90,7 +94,6 @@ function changed6() {
     document.querySelector('.icofont-chart-bar-graph').style.color = '#0078ff';
     document.querySelector('.ico-circle.six').style.backgroundColor = '#dcdada';
 }
-
 
 function retur1() {
     document.querySelector('.icofont-computer').style.color = 'white';
