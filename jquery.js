@@ -16,6 +16,21 @@ $(document).ready(function() {
         focusOnSelect: true,
         speed: 5000
     });
+
+    var distance = $("#home").offset().top,
+        $window = $(window);
+
+    $window.scroll(function() {
+        if ($window.scrollTop() == distance) {
+            // Your div has reached the top
+            alert("Your div has reached the top");
+
+        } else {
+
+        }
+    });
+
+
     // $("h1").animate({
     //     function() {
     //         $(this).css("backgroundColor", "black");
